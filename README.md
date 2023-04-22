@@ -78,10 +78,6 @@ Design hypothesis 2:
 
 The design hypothesis for this game is to explore how the snake game can be explored further from its original design and concept. This game combines two different classic games which are the snake game and find the difference. The find the difference is where the player will have to find the different cube on the pattern full floor to move on to the next level. As the player levels up, finding the cube will become harder and harder along aside with a faster movement of the character. 
 
-Citation:
-https://www.youtube.com/watch?v=iuz7aUHYC_E 
-
-
 Design Journal Entries:
 
 Playtester 1:
@@ -185,9 +181,32 @@ All of the player believed that having the first view camera would be better so 
 # Iterative 3
  
 Design hypothesis 3:
-The design hypothesis for this iterative is to see how the user react to different shapes of levels. If it is easier to move between them and is to too complicated to nevigate. 
+The design hypothesis for this iterative is to see how the user react to different shapes of levels and the audio. If it is easier to move between them and is to too complicated to nevigate. 
 
 Design Journal Entries:
+
+Brianna:
+- The different level are good however the camera speed is bit fast. 
+- cool game 
+- Maybe it would be great if the player could jump. 
+- The audio is good and the intro sound is good. 
+
+Dillon:
+- Interesting game 
+- Maybe it could be very repeative like repeating over and over, if you hide the tile inside the other tile like hide and seek. That would be more chanllening yet the player will have to go around and inside the other tiles to look for the special tile. 
+- The sound is good but it would be better if everytime the bunny moves, we hear a hoping sound instead of music. 
+- And maybe we should see the bunny to see what is happening since it hides some of the tile that we cannot see. 
+- Overall good game but adding a better prompt would be good to let the user know what is happening. 
+
+Tran:
+- Simple yet creative game. Like the idea of the combination of the puzzle game, with find the differece and snake game. 
+- Maybe some of the levels are a bit chanlleging. 
+- I wish I could see the bunny hopping around instead it being the camera.
+- Sound it good, since it gives it a relaxation vibe but also keeps a sort of mystery. 
+- Nice idea. 
+
+Reflection on the result of the playtester:
+I asked my friends to do the playtest for me and Dillon actually came up good idea of hiding the unique tile inside a regular tile and then the player will have to go inside to discover them. I really liked this idea however, I did not know how to do this without making the bunny fall through the tile. Howeve, overall the test was good and I like that the audio was good and it give the feeling I wanted it to give. 
 
 
 <hr> 
@@ -195,10 +214,15 @@ Design Journal Entries:
 # Video references, images and audio citations:
 
 https://www.youtube.com/watch?v=cX_KrK8RQ2o
+
 https://www.youtube.com/watch?v=CxI2OBdhLno
+
 https://www.youtube.com/watch?v=CxI2OBdhLno
+
 https://www.youtube.com/watch?v=iuz7aUHYC_E
+
 https://www.youtube.com/watch?v=_QajrabyTJc
+
 https://www.youtube.com/watch?v=_QajrabyTJc
 
 All the images are from Unsplash:
