@@ -11,7 +11,7 @@ public class MenuScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        // Set material for "Tile" cubes
+        
         GameObject[] tiles = GameObject.FindGameObjectsWithTag("Tile");
         for (int i = 0; i < tiles.Length; i++)
         {
@@ -22,7 +22,7 @@ public class MenuScript : MonoBehaviour
             }
         }
 
-        // Set material for "SpecialTile" cube
+        
         GameObject specialTile = GameObject.FindGameObjectWithTag("SpecialTile");
         if (specialTile != null)
         {

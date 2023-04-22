@@ -12,7 +12,7 @@ public class Level3 : MonoBehaviour
     public float SteerSpeed = 100f;
 
     Vector3 velocity;
-    private bool isCollidingWithSpecialTile = false; // Flag to track if bunny is colliding with SpecialTile
+    private bool isCollidingWithSpecialTile = false;
 
     public AudioSource audioSource;
 
@@ -32,11 +32,11 @@ public class Level3 : MonoBehaviour
 
         controller.Move(velocity * Time.deltaTime);
 
-        // Handle rotation
+
         float steerDirection = Input.GetAxis("Horizontal");
         transform.Rotate(Vector3.up * steerDirection * SteerSpeed * Time.deltaTime);
 
-        // Check for 'R' key press to restart the game
+
         if (Input.GetKeyDown(KeyCode.R))
         {
             RestartGame();
@@ -47,14 +47,12 @@ public class Level3 : MonoBehaviour
     {
         if (other.tag == "SpecialTile")
         {
-            // Check if the collision is with a special tile
 
-            // Set the flag to indicate collision with SpecialTile
             isCollidingWithSpecialTile = true;
 
 
 
-            // Disable collision between bunny and SpecialTile
+
             Collider otherCollider = other.GetComponent<Collider>();
             if (otherCollider != null)
             {
@@ -67,12 +65,10 @@ public class Level3 : MonoBehaviour
     {
         if (other.tag == "SpecialTile")
         {
-            // Check if the collision with the special tile has ended
 
-            // Reset the flag for collision with SpecialTile
             isCollidingWithSpecialTile = false;
 
-            // Enable collision between bunny and SpecialTile
+
             Collider otherCollider = other.GetComponent<Collider>();
             if (otherCollider != null)
             {
@@ -85,17 +81,15 @@ public class Level3 : MonoBehaviour
     {
         if (hit.collider != null && hit.collider.tag == "SpecialTile" && !isCollidingWithSpecialTile)
         {
-            // Check if the collision is with a special tile and the flag is not set
 
-            // Fall through the SpecialTile
             Physics.IgnoreCollision(controller, hit.collider, true);
 
-            // Set the flag to indicate that the bunny is colliding with the special tile
+
             isCollidingWithSpecialTile = true;
 
             audioSource.Play();
 
-            // Load the Level2 scene after a delay of 1 second
+
             StartCoroutine(LoadLevel2WithDelay());
         }
     }
@@ -103,13 +97,13 @@ public class Level3 : MonoBehaviour
     IEnumerator LoadLevel2WithDelay()
     {
         yield return new WaitForSeconds(1f);
-        SceneManager.LoadScene("Level4"); // Load the Level2 scene
+        SceneManager.LoadScene("Level4");
     }
 
     // Function to restart the game
     void RestartGame()
     {
-        // Load the current scene again to restart the game
+
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }

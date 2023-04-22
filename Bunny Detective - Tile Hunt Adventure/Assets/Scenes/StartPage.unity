@@ -571,7 +571,7 @@ MonoBehaviour:
     drop to the next level. Can you rise to the \nchallenge and become the ultimate
     Bunny Hunt champion?\n\nGet ready for a thrilling adventure full of mystery,
     excitement, \nand bunny antics. Good luck, and have a blast! Happy hunting!\n\nUSE
-    THE ARROW KEYS TO MOVE.\nUSE 'R' TO RESTART THE GAME WITH YOU DIE. "
+    THE ARROW KEYS TO MOVE.\nUSE 'R' TO RESTART THE GAME WHEN YOU DIE. "
 --- !u!222 &710703926
 CanvasRenderer:
   m_ObjectHideFlags: 0
